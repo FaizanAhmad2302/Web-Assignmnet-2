@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership & Benefits | MyLibrary</title>
+    <link rel="stylesheet" href="css/membership.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/membership.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="borrow.html">📖 Borrow</a></li>
+            <li><a href="catalog.html">🔍 Catalog</a></li>
+            <li><a href="ebooks.html">🎧 E-books</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Content -->
+    <header>
+        <h1>Membership & Benefits</h1>
+        <p>Join us to enjoy exclusive perks!</p>
+    </header>
+
+    <section class="membership-form">
+        <h2>Sign Up</h2>
+        <form id="membership-signup">
+            <input type="text" id="full-name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Join Now</button>
+        </form>
+        <p id="confirmation-message" style="display: none; color: green;"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MyLibrary | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
+    </footer>
+
+</body>
+</html>

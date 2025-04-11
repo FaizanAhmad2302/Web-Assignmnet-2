@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrow & Return Books | MyLibrary</title>
+    <link rel="stylesheet" href="css/borrow.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="catalog.html">🔍 Catalog</a></li>
+            <li><a href="membership.html">🛠 Membership</a></li>
+            <li><a href="ebooks.html">🎧 E-books</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Content -->
+    <header>
+        <h1>Borrow & Return Books</h1>
+        <p>Manage your borrowed books with ease.</p>
+    </header>
+
+    <section class="borrow-section">
+        <h2>Your Borrowed Books</h2>
+        <ul id="borrowed-books">
+            <li>Loading your books...</li>
+        </ul>
+    </section>
+
+    <section class="return-section">
+        <h2>Return a Book</h2>
+        <form id="return-form">
+            <input type="text" id="book-title" placeholder="Enter book title">
+            <button type="submit">Return</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MyLibrary | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
+    </footer>
+
+</body>
+</html>

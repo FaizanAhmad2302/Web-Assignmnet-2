@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background-color: #2C3E50;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4b400; /* Yellow Hover */
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Membership Form Section */
+.membership-form {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 400px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.membership-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+/* Form Styles */
+#membership-signup {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#membership-signup input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#membership-signup button {
+    background-color: #f4b400; /* Yellow */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#membership-signup button:hover {
+    background-color: #e6a700; /* Darker Yellow */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2C3E50;
+    color: white;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #f4b400; /* Yellow Links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

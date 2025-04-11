@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Catalog & Search | MyLibrary</title>
+    <link rel="stylesheet" href="css/catalog.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/catalog.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="borrow.html">📖 Borrow</a></li>
+            <li><a href="membership.html">🛠 Membership</a></li>
+            <li><a href="ebooks.html">🎧 E-books</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Content -->
+    <header>
+        <h1>Online Catalog & Search</h1>
+        <p>Find books easily with our search system.</p>
+    </header>
+
+    <section class="search-section">
+        <input type="text" id="search-bar" placeholder="Search for books...">
+        <button onclick="searchBooks()">Search</button>
+    </section>
+
+    <section class="results-section">
+        <h2>Search Results</h2>
+        <ul id="book-results"></ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MyLibrary | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
+    </footer>
+
+</body>
+</html>

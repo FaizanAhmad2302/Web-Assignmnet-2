@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-books & Audiobooks | MyLibrary</title>
+    <link rel="stylesheet" href="css/ebooks.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/ebooks.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="borrow.html">📖 Borrow</a></li>
+            <li><a href="catalog.html">🔍 Catalog</a></li>
+            <li><a href="membership.html">🛠 Membership</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Content -->
+    <header>
+        <h1>E-books & Audiobooks</h1>
+        <p>Read or listen to books anytime.</p>
+    </header>
+
+    <section class="search-section">
+        <input type="text" id="search-bar" placeholder="Search E-books...">
+        <button onclick="filterBooks()">Search</button>
+    </section>
+
+    <section class="ebook-list">
+        <h2>Available E-books</h2>
+        <ul id="ebook-results"></ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MyLibrary | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
+    </footer>
+
+</body>
+</html>

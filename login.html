@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Signup</title>
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    
+    <div class="auth-container">
+        <div class="auth-box">
+            <h2 id="auth-title">Login</h2>
+
+            <form id="auth-form">
+                
+                <div class="input-group" id="name-field" style="display: none;">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="name" placeholder="Full Name">
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                
+                <div class="input-group" id="mobile-field" style="display: none;">
+                    <i class="fas fa-phone"></i>
+                    <input type="text" id="mobile" placeholder="Mobile Number">
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                
+                <button type="submit" class="btn-auth">Login</button>
+                <p id="toggle-text">Don't have an account? <a href="#" id="toggle-auth">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+
+   
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
